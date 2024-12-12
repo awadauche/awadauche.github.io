@@ -1,0 +1,189 @@
+@article{AWADA2024,
+title = {Collaborative learning-based inter-dependent task dispatching and co-location in an integrated edge computing system},
+journal = {Digital Communications and Networks},
+year = {2024},
+issn = {2352-8648},
+doi = {https://doi.org/10.1016/j.dcan.2024.08.002},
+url = {https://www.sciencedirect.com/science/article/pii/S2352864824000956},
+author = {Uchechukwu Awada and Jiankang Zhang and Sheng Chen and Shuangzhi Li and Shouyi Yang},
+keywords = {Edge computing, Collaborative learning, Resource utilization, Execution time, Edge federation, Gang scheduling},
+abstract = {Recently, several edge deployment types, such as on-premise edge clusters, Unmanned Aerial Vehicles (UAV)-attached edge devices, telecommunication base stations installed with edge clusters, etc., are being deployed to enable faster response time for latency-sensitive tasks. One fundamental problem is where and how to offload and schedule multi-dependent tasks so as to minimize their collective execution time and to achieve high resource utilization. Existing approaches randomly dispatch tasks naively to available edge nodes without considering the resource demands of tasks, inter-dependencies of tasks and edge resource availability. These approaches can result in the longer waiting time for tasks due to insufficient resource availability or dependency support, as well as provider lock-in. Therefore, we present EdgeColla, which is based on the integration of edge resources running across multi-edge deployments. EdgeColla leverages learning techniques to intelligently dispatch multi-dependent tasks, and a variant bin-packing optimization method to co-locate these tasks firmly on available nodes to optimally utilize them. Extensive experiments on real-world datasets from Alibaba on task dependencies show that our approach can achieve optimal performance than the baseline schemes.}
+}
+
+@article{Jiankang ZHANG_40,
+author = {AWADA Uchechukwu, ZHANG Jiankang, CHEN Sheng, LI Shuangzhi, YANG Shouyi},
+title = {Machine Learning Driven Latency Optimization for Internet of Things Applications in Edge Computing},
+publisher = {ZTE Communications},
+year = {2023},
+journal = {ZTE Communications},
+volume = {21},
+number = {2},
+eid = {40},
+pages = {40-52},
+keywords = {;edge computing;execution time;IoT;machine learning;resource efficiency},
+doi = https://zte.magtechjournal.com/EN/10.12142/ZTECOM.202302007
+}    
+
+@article{AWADA2023102923,
+title = {Resource-aware multi-task offloading and dependency-aware scheduling for integrated edge-enabled IoV},
+journal = {Journal of Systems Architecture},
+volume = {141},
+pages = {102923},
+year = {2023},
+issn = {1383-7621},
+doi = {https://doi.org/10.1016/j.sysarc.2023.102923},
+url = {https://www.sciencedirect.com/science/article/pii/S1383762123001029},
+author = {Uchechukwu Awada and Jiankang Zhang and Sheng Chen and Shuangzhi Li and Shouyi Yang},
+keywords = {Edge computing, IoV, Dependency-aware, Execution time, Resource efficiency, Co-location},
+abstract = {Internet of Vehicles (IoV) enables a wealth of modern vehicular applications, such as pedestrian detection, real-time video analytics, etc., that can help to improve traffic efficiency and driving safety. However, these applications impose significant resource demands on the in-vehicle resource-constrained Edge Computing (EC) device installation. In this article, we study the problem of resource-aware offloading of these computation-intensive applications to the Closest roadside units (RSUs) or telecommunication base stations (BSs), where on-site EC devices with larger resource capacities are deployed, and mobility of vehicles are considered at the same time. Specifically, we propose an Integrated EC framework, which can keep edge resources running across various in-vehicles, RSUs and BSs in a single pool, such that these resources can be holistically monitored from a single control plane (CP). Through the CP, individual in-vehicle, RSU or BS edge resource availability can be obtained, hence applications can be offloaded concerning their resource demands. This approach can avoid execution delays due to resource unavailability or insufficient resource availability at any EC deployment. This research further extends the state-of-the-art by providing intelligent multi-task scheduling, by considering both task dependencies and heterogeneous resource demands at the same time. To achieve this, we propose FedEdge, a variant Bin-Packing optimization approach through Gang-Scheduling of multi-dependent tasks that co-schedules and co-locates multi-task tightly on nodes to fully utilize available resources. Extensive experiments on real-world data trace from the recent Alibaba cluster trace, with information on task dependencies and resource demands, show the effectiveness, faster executions, and resource efficiency of our approach compared to the existing approaches.}
+}
+
+@article{AWADA2023103632,
+title = {EdgeDrones: Co-scheduling of drones for multi-location aerial computing missions},
+journal = {Journal of Network and Computer Applications},
+volume = {215},
+pages = {103632},
+year = {2023},
+issn = {1084-8045},
+doi = {https://doi.org/10.1016/j.jnca.2023.103632},
+url = {https://www.sciencedirect.com/science/article/pii/S1084804523000516},
+author = {Uchechukwu Awada and Jiankang Zhang and Sheng Chen and Shuangzhi Li and Shouyi Yang},
+keywords = {Edge computing, Aerial computing, Vehicle routing, Linear regression, Execution time, Resource efficiency, Co-location},
+abstract = {Low altitude platform (LAP) unmanned aerial vehicles (UAVs), also called drones, are currently being exploited by Edge computing (EC) systems to execute complex resource-hungry use cases, such as virtual reality, smart cities, autonomous vehicles, etc., by attaching portable edge devices on them. However, a typical drone has limited flight time, coupled with the resource-constrained attached edge device, which can jeopardize aerial computing missions if they are not holistically taking into consideration. Moreover, the fundamental challenge is how to co-schedule multi-drone among multi-location where EC services are needed, such that drones are scheduled to maximize the utility from the activities while meeting computing resource and flight time constraints. Therefore, for a given fleet of drones and tasks across disjointed target locations in a city, we derive a machine learning (ML) linear regression model that estimates these tasks resource requirement and execution time. Leveraging this estimation values, we jointly consider each drone’s flight time availability and its attached edge device resource capacity, and formulate a novel Multi-Location Capacitated Mission Scheduling Problem (MLCMSP) that selects suitable drones and co-schedules their flight routes with the least total distance to visit and execute tasks at the target locations. Then, we show that faster scheduling and execution of complex tasks at each location, while considering the inter-task dependencies is important to achieve effective solution for our MLCMSP. Hence, we further propose EdgeDrones, a variant bin-packing optimization approach through gang-scheduling of inter-dependent tasks that co-schedules and co-locates tasks tightly so as to achieve faster execution time, as well as to fully utilize available resources. Extensive experiments on Alibaba cluster trace with information on task dependencies (about 12,207,703 dependencies) show that EdgeDrones achieves up to 73% higher resource utilization, up to 17.6 times faster executions, and up to 2.87 times faster flight travel time compared to the baseline approaches.}
+}
+
+@ARTICLE{9611013,
+  author={Awada, Uchechukwu and Zhang, Jiankang and Chen, Sheng and Li, Shuangzhi},
+  journal={IEEE Transactions on Vehicular Technology}, 
+  title={AirEdge: A Dependency-Aware Multi-Task Orchestration in Federated Aerial Computing}, 
+  year={2022},
+  volume={71},
+  number={1},
+  pages={805-819},
+  keywords={Task analysis;Drones;Resource management;Dispatching;Edge computing;Cloud computing;Real-time systems;Edge computing;aerial computing;dependency-aware;application container;execution time;resource efficiency},
+  doi={10.1109/TVT.2021.3127011}
+}
+
+@INPROCEEDINGS{9582238,
+  author={Awada, Uchechukwu and Zhang, Jiankang and Chen, Sheng and Li, Shuangzhi},
+  booktitle={2021 IEEE 14th International Conference on Cloud Computing (CLOUD)}, 
+  title={Air-to-Air Collaborative Learning: A Multi-Task Orchestration in Federated Aerial Computing}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={671-680},
+  keywords={Performance evaluation;Cloud computing;Processor scheduling;Machine learning;Real-time systems;Time factors;Resource management;Edge computing;dependency-aware;federated learning;edge federation;execution time;resource efficiency},
+  doi={10.1109/CLOUD53861.2021.00086}
+}
+
+@INPROCEEDINGS{9284307,
+  author={Awada, Uchechukwu and Zhang, Jiankang},
+  booktitle={2020 IEEE International Conference on Edge Computing (EDGE)}, 
+  title={Edge Federation: A Dependency-Aware Multi-Task Dispatching and Co-location in Federated Edge Container-Instances}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={91-98},
+  keywords={Tools;Dispatching;Unmanned aerial vehicles;Servers;Task analysis;Optimization;Edge computing;Edge computing;dependency-aware;application container;execution time;resource efficiency;co-location},
+  doi={10.1109/EDGE50951.2020.00021}
+}
+
+@INPROCEEDINGS{7973800,
+  author={Awada, Uchechukwu and Barker, Adam},
+  booktitle={2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)}, 
+  title={Improving Resource Efficiency of Container-Instance Clusters on Clouds}, 
+  year={2017},
+  volume={},
+  number={},
+  pages={929-934},
+  keywords={Containers;Cloud computing;Memory management;Ports (Computers);Resource management;Optimization;Scheduling;Application container;Cloud computing;Orchestration tool;Resource efficiency;Execution time},
+  doi={10.1109/CCGRID.2017.113}
+}
+
+@inproceedings{10.1145/3018896.3056798,
+author = {Awada, Uchechukwu and Barker, Adam},
+title = {Resource efficiency in container-instance clusters},
+year = {2017},
+isbn = {9781450347747},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3018896.3056798},
+doi = {10.1145/3018896.3056798},
+abstract = {Cloud computing providers have recently begun offering container instances, which provide an efficient route to application deployment within a lightweight, isolated and well-defined execution environment. Cloud providers currently offer Container Service Platforms (CSPs), which support the flexible orchestration of containerised applications.Existing CSP frameworks do not offer any form of intelligent resource scheduling: applications are usually scheduled individually, rather than taking a holistic view of all registered applications and available resources in the cloud. This can result in increased execution times for applications, resource wastage through underutilized container-instances, and a reduction in the number of applications that can be deployed, given the available resources.This paper presents a cloud-based Container Management Service (CMS) framework, which offers increased deployment density, scalability and resource efficiency for containerised applications. CMS extends the state-of-the-art by providing additional functionalities for orchestrating containerised applications by joint optimisation of sets of containerised applications and resource pool on the cloud. We evaluate CMS on a cloud-based CSP i.e., Amazon EC2 Container Management Service (ECS) and conducted extensive experiments using sets of CPU and Memory intensive containerised applications against the direct deployment strategy of Amazon ECS. The results show that CMS achieves up to 25\% higher cluster utilisation and up to 2.5 times faster execution times.},
+booktitle = {Proceedings of the Second International Conference on Internet of Things, Data and Cloud Computing},
+articleno = {181},
+numpages = {5},
+keywords = {application container, cloud computing, execution time, resource efficiency},
+location = {Cambridge, United Kingdom},
+series = {ICC '17}
+}
+
+@INPROCEEDINGS{7027631,
+  author={Uchechukwu, Awada and Li, Keqiu and Li, Keqin},
+  booktitle={2014 IEEE/ACM 7th International Conference on Utility and Cloud Computing}, 
+  title={Scalable Analytic Models for Performance Efficiency in the Cloud}, 
+  year={2014},
+  volume={},
+  number={},
+  pages={998-1003},
+  keywords={Servers;Time factors;Multicore processing;Cloud computing;Computational modeling;Availability;Load modeling;cloud computing;performance efficiency;data center;response time;load distribution;queuing model;interacting markov model},
+  doi={10.1109/UCC.2014.164}
+}
+
+@inproceedings{10.5555/2758335.2758713,
+author = {Uchechukwu, Awada and Li, Keqiu and Li, Keqin},
+title = {High-Performance Processing of Large-Scale Parallel Applications in Heterogeneous Cloud Computing Data Centers},
+year = {2014},
+isbn = {9781479967193},
+publisher = {IEEE Computer Society},
+address = {USA},
+abstract = {Efficient application processing is critical for achieving high performance in heterogeneous computing systems, i.e., Optimal System configuration and load distribution of some given types of applications, such that the average response time of tasks is minimized. Such performance optimization is important for a cloud computing provider to efficiently utilize all the available resources and to deliver the highest quality of service. To achieve this, first we use clustering algorithm to group the tasks into distinct classes with similar characteristics in terms of resource and performance requirements. Second, a multicore server processor is treated as a group of queuing systems with multiple servers, i.e., M/M/m queuing systems. Third, we formulate and solve the optimal load distribution of tasks and the problem of optimal multicore server processing partitioning for multiple heterogeneous multicore servers. We show that although the problem is sophisticated, it can be solved by a numerical algorithm. We obtain not only detailed assessment of cloud center performance, but also insights into equilibrium arrangement, and power consumption to be kept under control.},
+booktitle = {Proceedings of the 2014 IEEE Fourth International Conference on Big Data and Cloud Computing},
+pages = {143–150},
+numpages = {8},
+keywords = {response time, queueing model, performance efficiency, multicore server processor, load distribution, data center, cloud computing},
+series = {BDCLOUD '14}
+}
+
+@INPROCEEDINGS{6428800,
+  author={Ji, Changqing and Li, Yu and Qiu, Wenming and Awada, Uchechukwu and Li, Keqiu},
+  booktitle={2012 12th International Symposium on Pervasive Systems, Algorithms and Networks}, 
+  title={Big Data Processing in Cloud Computing Environments}, 
+  year={2012},
+  volume={},
+  number={},
+  pages={17-23},
+  keywords={Information management;Data handling;Data storage systems;Cloud computing;Computer architecture;Data models;Distributed databases;Big Data;Cloud Computing;Data Management;Distributed Computing},
+  doi={10.1109/I-SPAN.2012.9}
+}
+
+@INPROCEEDINGS{6486511,
+  author={Uchechukwu, Awada and Li, Keqiu and Shen, Yanming},
+  booktitle={2012 IEEE Asia Pacific Cloud Computing Congress (APCloudCC)}, 
+  title={Improving cloud computing energy efficiency}, 
+  year={2012},
+  volume={},
+  number={},
+  pages={53-58},
+  keywords={cloud computing;green cloud environment;energy consumption;energy-saving},
+  doi={10.1109/APCloudCC.2012.6486511}
+}
+
+@article{doi:10.1142/S0219265912500090,
+author = {JI, CHANGQING and LI, YU and QIU, WENMING and JIN, YINGWEI and XU, YUJIE and AWADA, UCHECHUKWU and LI, KEQIU and QU, WENYU},
+title = {BIG DATA PROCESSING: BIG CHALLENGES AND OPPORTUNITIES},
+journal = {Journal of Interconnection Networks},
+volume = {13},
+number = {03n04},
+pages = {1250009},
+year = {2012},
+doi = {10.1142/S0219265912500090},
+URL = {https://doi.org/10.1142/S0219265912500090},
+eprint = {https://doi.org/10.1142/S0219265912500090},
+abstract = { With the rapid growth of emerging applications like social network, semantic web, sensor networks and LBS (Location Based Service) applications, a variety of data to be processed continues to witness a quick increase. Effective management and processing of large-scale data poses an interesting but critical challenge. Recently, big data has attracted a lot of attention from academia, industry as well as government. This paper introduces several big data processing techniques from system and application aspects. First, from the view of cloud data management and big data processing mechanisms, we present the key issues of big data processing, including definition of big data, big data management platform, big data service models, distributed file system, data storage, data virtualization platform and distributed applications. Following the MapReduce parallel processing framework, we introduce some MapReduce optimization strategies reported in the literature. Finally, we discuss the open issues and challenges, and deeply explore the research directions in the future on big data processing in cloud computing environments. }
+}
+
+
+
+
+
