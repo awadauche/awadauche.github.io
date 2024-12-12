@@ -24,8 +24,8 @@ role: Associate Professor of Computer Science/Software
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: 河南科技学院
+    url: https://www.hist.edu.cn/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -183,4 +183,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Uchechukwu Awada is an Associate Professor with the School of Software at Henan Institute of Science and Technology. His research interests include distributed computing/systems, mobile computing, cloud/edge computing, IoT, IoV and AI. He leads the Systems Research Group, whose mission is to identify, engineer and evaluate innovative technologies that address current and future data-intensive challenges. They take a very practical approach to research, by building and evaluating real systems, whilst publishing in many of the top-tiered systems research conferences and journals.
