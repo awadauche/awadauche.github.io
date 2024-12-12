@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 吳健雄
+title: 阿瓦达
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Uchechukwu Awada
 
 # Full name (for SEO)
 first_name: Uchechukwu
@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Associate Professor of Computer Science/Software
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
