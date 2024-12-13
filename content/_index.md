@@ -35,9 +35,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        My research interests include distributed computing/systems, mobile computing, cloud/edge computing, big data, IoT, IoV and AI. I lead the Systems Research Group (SGR), whose mission is to identify, engineer and evaluate innovative technologies that address current and future data-intensive challenges. We take a very practical approach to research, by building and evaluating real systems, whilst publishing in many of the top-tiered systems research conferences and journals.
+        
+        We are actively looking for motivated Master students to join our group. Welcome to SGR!
         
         Please reach out to collaborate 😃
     design:
