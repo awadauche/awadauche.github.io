@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Uchechukwu Awada (阿瓦达)
+title: Uchechukwu Awada
 
 # Name pronunciation (optional)
-name_pronunciation: 
+name_pronunciation: 阿瓦达
 
 # Full name (for SEO)
 first_name: Uchechukwu
