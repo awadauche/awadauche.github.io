@@ -71,22 +71,12 @@ education:
     date_end: 2011-06-30
     summary: |
       GPA: 3.95/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - area: BSc Computer Science
     institution: Ebonyi State University
     date_start: 2001-09-01
     date_end: 2006-06-30
     summary: |
       GPA: 3.83/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
   - position: Associate Professor with School of Software
     company_name: 河南科技学院
@@ -96,9 +86,10 @@ work:
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - I supervise Master students
+      - Undergraduate teaching (Java programming language)
+      - Undergraduate teaching (Python programming language)
+      - Undergraduate teaching (Deep learning)
   - position: Tutor
     company_name: University of St Andrews
     company_url: ''
@@ -107,9 +98,9 @@ work:
     date_end: 2019-06-30
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - General Research
+      - Undergraduate teaching (Java programming language)
+      - Undergraduate students final project supervision
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
