@@ -31,76 +31,80 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:awadazzu@outlook.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+    url: https://twitter.com/wada437
   - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.instagram.com/femilly70
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/awadauche
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/uchechukwu-awada-73134a17/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.co.uk/citations?user=xS30QnEAAAAJ&hl=en
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0002-2300-0586
 
 interests:
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Distributed Computing/Systems
+  - Cloud/Edge Computing
+  - Internet of Things
+  - Internet of Vehicles
+  - Smart City
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD Information and Communication Engineering
+    institution: Zhengzhou University
+    date_start: 2019-09-01
+    date_end: 2023-06-30
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      GPA: 4.0/4.0
+      Thesis on _Dependency-Aware Multi-Task Orchestration in Federated Edge Computing_. Supervised by [Prof Jiankang Zhang](https://staffprofiles.bournemouth.ac.uk/display/jzhang3) and [Prof Shouyi Yang]. 
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: MEng Computer Applied Technology
+    institution: Harbin Engineering University
+    date_start: 2009-09-01
+    date_end: 2011-06-30
     summary: |
-      GPA: 3.8/4.0
+      GPA: 3.95/4.0
 
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: BSc Computer Science
+    institution: Ebonyi State University
+    date_start: 2001-09-01
+    date_end: 2006-06-30
     summary: |
-      GPA: 3.4/4.0
+      GPA: 3.83/4.0
       
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Associate Professor with School of Software
+    company_name: 河南科技学院
+    company_url: 'https://www.hist.edu.cn/'
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2023-08-22
     date_end: ''
     summary: |2-
       Responsibilities include:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+  - position: Tutor
+    company_name: University of St Andrews
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2015-09-01
+    date_end: 2019-06-30
     summary: |
       Responsibilities include:
       - Migrated infrastructure to a new data center
@@ -146,8 +150,10 @@ languages:
     percent: 100
   - name: Chinese
     percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Ibo
+    percent: 100
+  - name: Yoruba
+    percent: 100
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -183,4 +189,4 @@ awards:
 
 ## About Me
 
-Uchechukwu Awada is an Associate Professor with the School of Software at Henan Institute of Science and Technology. His research interests include distributed computing/systems, mobile computing, cloud/edge computing, IoT, IoV and AI. He leads the Systems Research Group, whose mission is to identify, engineer and evaluate innovative technologies that address current and future data-intensive challenges. They take a very practical approach to research, by building and evaluating real systems, whilst publishing in many of the top-tiered systems research conferences and journals.
+Uchechukwu Awada is an Associate Professor with the School of Software at Henan Institute of Science and Technology (河南科技学院). His research interests include distributed computing/systems, mobile computing, cloud/edge computing, IoT, IoV and AI. He leads the Systems Research Group, whose mission is to identify, engineer and evaluate innovative technologies that address current and future data-intensive challenges. They take a very practical approach to research, by building and evaluating real systems, whilst publishing in many of the top-tiered systems research conferences and journals.
