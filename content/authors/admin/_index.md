@@ -45,6 +45,9 @@ profiles:
     url: https://scholar.google.co.uk/citations?user=xS30QnEAAAAJ&hl=en
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-2300-0586
+  - icon: brands/weixin
+    url: https://weixin.qq.com/
+
 
 interests:
   - Artificial Intelligence
@@ -110,7 +113,7 @@ skills:
       - name: Research
         description: ''
         percent: 100
-        icon: code-bracket
+        icon: books
       - name: Python
         description: ''
         percent: 100
